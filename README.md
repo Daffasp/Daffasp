@@ -1,16 +1,42 @@
-## Hi there 👋
+# Hi 👋, I'm <span style="color:#FF6F61;">Daffa Sadewa Putra</span> ✨
 
-<!--
-**Daffasp/Daffasp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+I'm a passionate **Software Developer & Tech Enthusiast**.  
+I love creating **web apps**, exploring **new technologies**, and learning **every day**.  
 
-Here are some ideas to get you started:
+## 🌟 Fun Facts
+- 💻 Currently exploring **VueJS, CodeIgniter 4 & MongoDB**
+- 🎨 Enjoy designing clean **UI/UX**
+- 🌱 Always learning **new programming skills**
+- 📫 You can reach me via GitHub issues or email
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+<!-- Animated typing effect using GitHub-supported HTML -->
+<p>
+  <b>Current Mood:</b>
+  <span id="animatedText"></span>
+</p>
+
+<script>
+const text = ["Coding 💻", "Learning 📚", "Creating 🎨", "Exploring 🌍"];
+let i = 0, j = 0, currentText = "", isDeleting = false;
+const speed = 100;
+
+function type() {
+    if (i < text.length) {
+        if (!isDeleting && j <= text[i].length) {
+            currentText = text[i].substring(0, j++);
+            document.getElementById("animatedText").innerText = currentText;
+        } else if (isDeleting && j >= 0) {
+            currentText = text[i].substring(0, j--);
+            document.getElementById("animatedText").innerText = currentText;
+        }
+
+        if (j === text[i].length) { isDeleting = true; setTimeout(type, 500); return; }
+        if (isDeleting && j === 0) { isDeleting = false; i = (i + 1) % text.length; }
+    }
+    setTimeout(type, speed);
+}
+type();
+</script>
