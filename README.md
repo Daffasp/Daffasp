@@ -1,4 +1,4 @@
-# Hi 👋, I'm <span style="color:#FF6F61;">Daffa Sadewa Putra</span> ✨
+# Hi 👋, I'm ![Daffa Sadewa Putra](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&duration=3000&pause=500&color=FF6F61&center=true&vCenter=true&width=500&lines=Daffa+Sadewa+Putra)
 
 ## About Me
 I'm a passionate **Software Developer & Tech Enthusiast**.  
@@ -12,9 +12,5 @@ I love creating **web apps**, exploring **new technologies**, and learning **eve
 
 ---
 
-<!-- Animated typing effect using GitHub-supported HTML -->
-<p>
-  <b>Current Mood:</b>
-  <span id="animatedText"></span>
-</p>
-
+## 🔥 Skills & Fun Animations
+![Coding](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=500&color=00F0FF&center=true&vCenter=true&width=400&lines=Coding+💻;Learning+📚;Creating+🎨;Exploring+🌍)
